@@ -1,0 +1,3 @@
+from scripts.acquisition_functions import TransformerBOMethod
+
+TransformerBOMethod
