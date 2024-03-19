@@ -5,7 +5,7 @@ from hpob_handler import HPOBHandler
 # from methods.pfns.pfns4bo import pfns4bo
 from methods.pfns.scripts.acquisition_functions import TransformerBOMethod
 
-model_path = 'C:/Users/82109/dsl_lab/HPO-B_taejoo/methods/pfns/fianl_models/model_hebo_morebudget_9_unused_features_3.pt'
+model_path = 'C:/Users/82109/dsl_lab/HPO-B_taejoo/methods/pfns/final_models/model_hebo_morebudget_9_unused_features_3.pt'
 # pfn_bo = TransformerBOMethod(torch.load(model_path), device='cpu:0', acq_function='pi')
 
 valid_acquisitions = ["ucb", "ei", "pi"] #"PM", "qEI", "hebo"
