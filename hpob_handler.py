@@ -248,9 +248,15 @@ class HPOBHandler:
 
     def get_search_spaces(self):
         return list(self.meta_test_data.keys())
+    
+    def get_meta_train_search_spaces(self):
+        return list(self.meta_train_data.keys())
 
     def get_datasets(self, search_space):
         return list(self.meta_test_data[search_space].keys())
+    
+    def get_meta_train_datasets(self, search_space):
+        return list(self.meta_train_data[search_space].keys())
 
     def get_seeds(self):
         return self.seeds
